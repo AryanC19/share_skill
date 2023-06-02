@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "767154175076",
+    "project_id": "shareskill-866a0",
+    "storage_bucket": "shareskill-866a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767154175076:android:0d8df8cfa5cd7ddaad7371",
+        "android_client_info": {
+          "package_name": "com.example.shareskill1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767154175076-5knv0sjlb3krjuvkecvu722555l5lk67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9lxHkvmA2gl25fBZfm3r_oG6tQZYKz5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767154175076-5knv0sjlb3krjuvkecvu722555l5lk67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
