@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:shareskill1/widget/jobcard.dart';
 import 'package:shareskill1/screens/login_page.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -70,27 +73,78 @@ class HomePage extends StatelessWidget {
             ),
             body: TabBarView(children: [
               ListView(
-                children: const [
-                  Text("bruh"),
-                  Text("bruh"),
-                  Text("bruh"),
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(18.0),
+                    child: ElevatedButton.icon(
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: const Color(0xFFEFEAE2),
+                      ),
+                      onPressed: () {
+                        Navigator.pushNamed(context, HomePage.id);
+                      },
+                      icon: const FaIcon(
+                        FontAwesomeIcons.plus,
+                        color: Colors.blue,
+                      ),
+                      label: const Center(
+                        child: Text(
+                          "CreateJob",
+                          style: TextStyle(
+                              color: Colors.black,
+                              // color: const Color(0xFFEFEAE2),
+
+                              fontWeight: FontWeight.w500,
+                              fontFamily: 'Poppins',
+                              fontSize: 23),
+                        ),
+                      ),
+                    ),
+                  ),
+                  const Padding(
+                    padding: EdgeInsets.only(left: 10, top: 20.0),
+                    child: Text("Pending Job Requests:",
+                        style: TextStyle(
+                          fontWeight: FontWeight.w500,
+                          fontFamily: 'Poppins',
+                          fontSize: 20,
+                        )),
+                  ),
                 ],
               ),
-              ListView(
-                children: const [
-                  Text("brsssuh"),
-                  Text("brsssuh"),
-                  Text("brusssh"),
-                ],
+              SizedBox(
+                child: ListView(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(top: 20.0, left: 10),
+                      child: Text(
+                        "Available Jobs:",
+                        style: TextStyle(
+                            color: Colors.black,
+                            // color: const Color(0xFFEFEAE2),
+
+                            fontWeight: FontWeight.w500,
+                            fontFamily: 'Poppins',
+                            fontSize: 23),
+                      ),
+                    )
+/*                     JobListScreen(),
+ */ /*  buildCard(0),
+                    buildCard(1),
+                    buildCard(2),
+                    buildCard(0),
+                    buildCard(3), */
+                  ],
+                ),
               ),
               ListView(
                 children: [
                   Container(
                     alignment: Alignment.center,
                     color: Colors.transparent,
-                    child: Column(
+                    child: const Column(
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: const [
+                      children: [
                         Text(
                           "Profile",
                           style: TextStyle(fontSize: 35, fontFamily: "Poppins"),
@@ -118,6 +172,20 @@ class HomePage extends StatelessWidget {
               ),
             ]),
           ),
+        ),
+      );
+
+  Widget buildCard(int i) => Padding(
+        padding: EdgeInsets.all(10),
+        child: Container(
+          /* decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            image: DecorationImage(
+              image: AssetImage("images/bghero.png"),
+              fit: BoxFit.cover,
+            ),
+          ), */
+          child: Text("ABCD$i"),
         ),
       );
 }

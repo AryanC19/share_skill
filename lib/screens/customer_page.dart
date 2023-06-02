@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:shareskill1/screens/home_page.dart';
 import 'package:shareskill1/screens/login_page.dart';
-import 'package:shareskill1/screens/profile_page.dart';
+import 'package:shareskill1/screens/createjob_page.dart';
 
 class CustomerPage extends StatelessWidget {
   CustomerPage({super.key});
@@ -11,7 +11,6 @@ class CustomerPage extends StatelessWidget {
   final screens = [
     HomePage(),
     LoginPage(),
-    ProfilePage(),
   ];
   final navigationKey = GlobalKey<CurvedNavigationBarState>();
 

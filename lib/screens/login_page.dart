@@ -30,7 +30,7 @@ class LoginPage extends StatelessWidget {
       body: Column(
         children: <Widget>[
           const SizedBox(
-            height: 130,
+            height: 80,
           ),
           const Text(
             "Share skill",
