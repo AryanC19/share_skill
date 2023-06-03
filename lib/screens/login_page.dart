@@ -1,6 +1,8 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:shareskill1/screens/home_page.dart';
+import 'package:shareskill1/screens/profile_page.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -26,19 +28,23 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      backgroundColor: Color.fromARGB(217, 153, 186, 218),
+      backgroundColor: Colors.black,
       body: Column(
         children: <Widget>[
           const SizedBox(
             height: 80,
           ),
-          const Text(
-            "Share skill",
-            style: TextStyle(
+          DefaultTextStyle(
+            style: const TextStyle(
               fontWeight: FontWeight.bold,
               fontFamily: 'Poppins',
               fontSize: 60,
-              color: const Color(0xFFEFEAE2),
+              color: Color(0xFFEFEAE2),
+            ),
+            child: AnimatedTextKit(
+              animatedTexts: [
+                TyperAnimatedText("Share Skill"),
+              ],
             ),
           ),
           const SizedBox(
@@ -52,6 +58,22 @@ class LoginPage extends StatelessWidget {
               fontSize: 14,
             ),
           ),
+          /* SizedBox(
+            width: 250.0,
+            child: DefaultTextStyle(
+              style: const TextStyle(
+                fontSize: 60.0,
+                fontFamily: 'Poppins',
+              ),
+              child: AnimatedTextKit(
+                animatedTexts: [
+                  ScaleAnimatedText('Delivery'),
+                  ScaleAnimatedText('Tutoring'),
+                  ScaleAnimatedText('Anything'),
+                ],
+              ),
+            ),
+          ), */
           const SizedBox(
             height: 20,
           ),
@@ -59,7 +81,10 @@ class LoginPage extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: TextFormField(
               decoration: const InputDecoration(
-                icon: Icon(Icons.person),
+                icon: Icon(
+                  Icons.person,
+                  color: Colors.white,
+                ),
                 hintText: 'Enter Name',
                 labelText: 'Name ',
               ),
@@ -133,7 +158,16 @@ class LoginPage extends StatelessWidget {
                 onTap: () {
                   Navigator.pushNamed(context, HomePage.id);
                 },
-                child: Text("Already a User?  Sign In")),
+                child: Text(
+                  "New User? Sign Up",
+                  style: TextStyle(
+                      color: Colors.white,
+                      // color: const Color(0xFFEFEAE2),
+
+                      fontWeight: FontWeight.w500,
+                      fontFamily: 'Poppins',
+                      fontSize: 13),
+                )),
           ),
         ],
       ),
