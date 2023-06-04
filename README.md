@@ -1,6 +1,6 @@
-# Community Services App
+# Share - Skill App
 
-Welcome to the Community Services App! This Flutter application allows users in a community to offer and request local services. Whether you need someone to help with household chores, gardening, or any other task, this app helps you connect with people willing to offer their services.
+Welcome to the Share Skill App! This Flutter application allows users in a community to offer and request local services. Whether you need someone to help with household chores, gardening, or any other task, this app helps you connect with people willing to offer their services.
 
 The app utilizes Firebase as the backend to store user information, service listings, and facilitate communication between users. This README will guide you through the steps required to set up and run the app on your local machine.
 
@@ -22,8 +22,8 @@ Before you begin, make sure you have the following software installed:
 
 Follow these steps to set up and run the app:
 
-1. Clone the repository: `git clone https://github.com/your-username/community-services-app.git`
-2. Change to the project directory: `cd community-services-app`
+1. Clone the repository`
+2. Change to the project directory:
 3. Install the dependencies: `flutter pub get`
 4. Firebase Configuration:
    - Create a new Firebase project.
