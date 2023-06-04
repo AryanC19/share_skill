@@ -11,6 +11,17 @@ https://github.com/ayushh2k/share-skill/
 ## Figma Link
 https://app.pitch.com/app/presentation/d0bac0ea-3f48-484b-ad53-34324597bbca/1255b77c-be1f-414a-8ecf-a5af5b9f4761/599afd8f-301a-46b7-950e-77b9ae5055a8
 
+## Images
+![form](https://i.postimg.cc/fTcwHB03/image.png) 
+
+![form](https://i.postimg.cc/qq8d5vgf/image.png) 
+
+![form](https://i.postimg.cc/rpK2LJzN/image.png) 
+
+![form](https://i.postimg.cc/RhxkKxdg/image.png) 
+
+
+
 ## Prerequisites
 
 Before you begin, make sure you have the following software installed:
@@ -44,30 +55,7 @@ Once the app is running on your device or emulator, you can explore the followin
 - View and edit your existing service listings.
 - Communicate with other users via the in-app messaging feature.
 
-## Contributing
 
-We welcome contributions to enhance the Community Services App. If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and test thoroughly.
-4. Commit your changes with descriptive commit messages.
-5. Push your changes to your fork.
-6. Open a pull request to the original repository.
-
-Please ensure that your code adheres to the project's coding standards and practices.
-
-## License
-
-The Community Services App is open-source and released under the [MIT License](LICENSE).
-
-## Support
-
-If you encounter any issues or have any questions, please feel free to contact us at [support@example.com](mailto:support@example.com).
-
-## Acknowledgements
-
-We would like to express our gratitude to the Flutter and Firebase communities for their excellent frameworks and documentation, which made this app possible.
 
 
 
