@@ -1,26 +1,23 @@
-# Share - Skill App
+# Share Skill App
 
 Welcome to the Share Skill App! This Flutter application allows users in a community to offer and request local services. Whether you need someone to help with household chores, gardening, or any other task, this app helps you connect with people willing to offer their services.
 
 The app utilizes Firebase as the backend to store user information, service listings, and facilitate communication between users. This README will guide you through the steps required to set up and run the app on your local machine.
 
-## Web portal
+## Web Portal
 
-https://github.com/ayushh2k/share-skill/
+- GitHub Repository: [Share Skill App](https://github.com/ayushh2k/share-skill/)
 
 ## Figma Link
-https://app.pitch.com/app/presentation/d0bac0ea-3f48-484b-ad53-34324597bbca/1255b77c-be1f-414a-8ecf-a5af5b9f4761/599afd8f-301a-46b7-950e-77b9ae5055a8
+
+- [Figma Design](https://app.pitch.com/app/presentation/d0bac0ea-3f48-484b-ad53-34324597bbca/1255b77c-be1f-414a-8ecf-a5af5b9f4761/599afd8f-301a-46b7-950e-77b9ae5055a8)
 
 ## Images
-![form](https://i.postimg.cc/fTcwHB03/image.png) 
 
-![form](https://i.postimg.cc/qq8d5vgf/image.png) 
-
-![form](https://i.postimg.cc/rpK2LJzN/image.png) 
-
-![form](https://i.postimg.cc/RhxkKxdg/image.png) 
-
-
+![Form Image 1](https://i.postimg.cc/fTcwHB03/image.png)
+![Form Image 2](https://i.postimg.cc/qq8d5vgf/image.png)
+![Form Image 3](https://i.postimg.cc/rpK2LJzN/image.png)
+![Form Image 4](https://i.postimg.cc/RhxkKxdg/image.png)
 
 ## Prerequisites
 
