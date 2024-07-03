@@ -14,10 +14,7 @@ The app utilizes Firebase as the backend to store user information, service list
 
 ## Images
 
-![Form Image 1](https://i.postimg.cc/fTcwHB03/image.png)
-![Form Image 2](https://i.postimg.cc/qq8d5vgf/image.png)
-![Form Image 3](https://i.postimg.cc/rpK2LJzN/image.png)
-![Form Image 4](https://i.postimg.cc/RhxkKxdg/image.png)
+<img src="https://i.postimg.cc/fTcwHB03/image.png" width="150"> <img src="https://i.postimg.cc/qq8d5vgf/image.png" width="150"> <img src="https://i.postimg.cc/rpK2LJzN/image.png" width="150"> <img src="https://i.postimg.cc/RhxkKxdg/image.png" width="150">
 
 ## Prerequisites
 
